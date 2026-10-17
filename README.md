@@ -60,7 +60,7 @@ In hospitals, a patient’s condition can worsen gradually over several hours be
 - `raw_train_long.csv` - hourly vitals/labs per patient (6-hour observation window per patient)
 - `labels_train.csv` - one label per patient (`1` = deterioration, `0` = no deterioration)
 - **Size:** 51,521 patients (165,126 hourly rows)
-- **Class imbalance:** 27,188 negative vs only 24,333 positive patients (about 1.2% positive)
+- **Class imbalance:** 27,188 negative vs only 24,333 positive patients 
 
 ---
 

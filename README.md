@@ -56,13 +56,11 @@ In hospitals, a patient’s condition can worsen gradually over several hours be
 
 ## Data Set
 
-- **Source:** Taken from GitHub, [add repository link here](https://github.com/)
 - **Format:** Two files in long format
 - `raw_train_long.csv` - hourly vitals/labs per patient (6-hour observation window per patient)
 - `labels_train.csv` - one label per patient (`1` = deterioration, `0` = no deterioration)
-- **Size:** 27,521 patients (165,126 hourly rows)
-- **Class imbalance:** 27,188 negative vs only 333 positive patients (about 1.2% positive)
-- **Parameters:** HR, SpO₂, MAP, SBP, Respiration, Temperature, lab values, plus static fields such as Age
+- **Size:** 51,521 patients (165,126 hourly rows)
+- **Class imbalance:** 27,188 negative vs only 24,333 positive patients (about 1.2% positive)
 
 ---
 
@@ -83,7 +81,6 @@ We built a five-stage pipeline (see the flow chart above):
 - The system **supports** doctors and nurses; it does **not** replace clinical judgment or give an autonomous diagnosis.
 - It looks at **trends and combinations** of vital signs, not just the latest reading.
 - Every alert comes with an **explainable reason** (SHAP), so clinicians can see what drove the risk score.
-- The data is **highly imbalanced** (333 positive vs 27,188 negative), so accuracy is a misleading metric. We report AUROC and AUPRC instead.
 - Models must be evaluated on **real patients only**, split at patient level.
 - This is a research/demo prototype and is **not clinically validated**.
 

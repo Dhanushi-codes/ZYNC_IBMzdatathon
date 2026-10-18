@@ -111,6 +111,19 @@ The most influential features are oxygen-saturation features (`O2Sat_max`, `O2Sa
 
 **Honest reading:** the current model is only slightly better than chance. With just 333 positive patients and short 6-hour windows, the signal is weak. Next steps are more positive cases, longer patient histories, and better trend features.
 
+🚀 Future Scope & Roadmap
+Multi-Parameter Integration: Integration of additional clinical data streams such as continuous ECG waveforms, arterial blood gas (ABG) reports, and lab markers (e.g., lactate, white blood cell counts) to improve risk-prediction accuracy.
+
+Real-Time Hospital EMR Integration: Developing HL7/FHIR-compliant connectors to integrate directly with hospital Electronic Medical Records (EMR) systems like Epic or Cerner for automated patient monitoring.
+
+Advanced Deep Learning Models: Moving beyond LightGBM to explore transformer-based temporal models (like LSTM or Temporal Convolutional Networks) to capture complex, long-term patient deterioration patterns over 24–48 hour windows.
+
+Automated Nurse & Doctor Alerting System: Implementing real-time push notifications, SMS, or pager alerts integrated with hospital nurse-call systems for rapid emergency response team (RRT) dispatch.
+
+Clinical Validation & IRB Trials: Conducting prospective clinical trials and retrospective validation across diverse hospital datasets to refine model thresholds, reduce false positives, and move toward regulatory approval (FDA/CE).
+
+
+
 ---
 
 ## Video Explanation of Project

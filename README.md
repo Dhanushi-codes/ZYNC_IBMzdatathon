@@ -123,4 +123,4 @@ The most influential features are oxygen-saturation features (`O2Sat_max`, `O2Sa
 
 ## Video Explanation of Project
 
-<!-- Video will be added later -->
+https://youtu.be/uYA0RRmfitI?si=xib8IsOEaBnBHyvH

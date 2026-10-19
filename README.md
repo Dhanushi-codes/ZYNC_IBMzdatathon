@@ -111,6 +111,14 @@ The most influential features are oxygen-saturation features (`O2Sat_max`, `O2Sa
 
 **Honest reading:** the current model is only slightly better than chance. With just 333 positive patients and short 6-hour windows, the signal is weak. Next steps are more positive cases, longer patient histories, and better trend features.
 
+
+## Future Scope & Next Steps
+
+* **Expanded Patient Cohorts:** Integrating larger, more diverse datasets with a higher volume of positive cases to improve model sensitivity and statistical power beyond the current baseline.
+* **Extended Observation Windows:** Moving beyond short 6-hour observation windows to track longer patient histories and capture early deterioration trajectories.
+* **Advanced Trend Features:** Engineering robust temporal and rolling feature sets to better differentiate between stable and deteriorating vital-sign patterns.
+* **Clinical Integration & Alerting:** Designing real-time clinician-facing dashboards with explainable SHAP-driven alerts to support hospital emergency response workflows.
+
 ---
 
 ## Video Explanation of Project
